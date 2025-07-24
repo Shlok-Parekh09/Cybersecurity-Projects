@@ -2,7 +2,7 @@
 RC4 (Rivest Cipher 4) is a symmetric stream cipher designed by Ron Rivest in 1987. It was widely used in SSL, WEP, and Windows applications, but due to multiple vulnerabilities discovered over time, it has since been deprecated and is no longer considered secure for modern applications.
 
 # Working
-<div align = "center"><img width="700" height="503" alt="image" src="https://github.com/user-attachments/assets/a828ae85-2bd3-4c90-9358-538766b3b11d" /><div></div> <br>
+<div align = "center"><img width="700" height="503" alt="image" src="https://github.com/user-attachments/assets/a828ae85-2bd3-4c90-9358-538766b3b11d" /> </div> <br>
 Encryption :- The plain text and a secret key are provided by the user. The encryption algorithm uses the KSA (Key Scheduling) and PRGA (Pseuda Random Generation) algorithms to generate the keystream for the secret key that was entered. The produced keystream is XORed with the plaintext by XORing byte-by-byte as RC4 is a stream cipher and the encrypted text is recieved.
 Decryption:- The encrypted text obtained and the same secret key is inputted to decrypt the cipher text. The KSA and PRGA steps are repeated using the same secret key. The same keystream is regenerated and XORed with the cipher text byte-by-byte and the orginal text is recieved.
 
